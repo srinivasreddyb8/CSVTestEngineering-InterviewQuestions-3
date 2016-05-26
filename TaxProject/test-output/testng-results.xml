@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="77" started-at="2016-05-26T06:14:04Z" finished-at="2016-05-26T06:14:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="77" started-at="2016-05-26T06:14:04Z" finished-at="2016-05-26T06:14:04Z">
+      <class name="test_classes.TotalCostTests">
+        <test-method status="PASS" signature="luxuryTaxCalculationTest()[pri:0, instance:test_classes.TotalCostTests@3930015a]" name="luxuryTaxCalculationTest" duration-ms="7" started-at="2016-05-25T23:14:04Z" finished-at="2016-05-25T23:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luxuryTaxCalculationTest -->
+        <test-method status="PASS" signature="necessityTaxCalculationTest()[pri:0, instance:test_classes.TotalCostTests@3930015a]" name="necessityTaxCalculationTest" duration-ms="3" started-at="2016-05-25T23:14:04Z" finished-at="2016-05-25T23:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- necessityTaxCalculationTest -->
+      </class> <!-- test_classes.TotalCostTests -->
+      <class name="test_classes.GettingInputTests">
+        <test-method status="PASS" signature="testBaddataRejection()[pri:0, instance:test_classes.GettingInputTests@47d384ee]" name="testBaddataRejection" duration-ms="21" started-at="2016-05-25T23:14:04Z" finished-at="2016-05-25T23:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaddataRejection -->
+        <test-method status="PASS" signature="testIntegerData()[pri:0, instance:test_classes.GettingInputTests@47d384ee]" name="testIntegerData" duration-ms="1" started-at="2016-05-25T23:14:04Z" finished-at="2016-05-25T23:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIntegerData -->
+        <test-method status="PASS" signature="testNegativeDataRejection()[pri:0, instance:test_classes.GettingInputTests@47d384ee]" name="testNegativeDataRejection" duration-ms="1" started-at="2016-05-25T23:14:04Z" finished-at="2016-05-25T23:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeDataRejection -->
+        <test-method status="PASS" signature="testOutOfRangeValue()[pri:0, instance:test_classes.GettingInputTests@47d384ee]" name="testOutOfRangeValue" duration-ms="1" started-at="2016-05-25T23:14:04Z" finished-at="2016-05-25T23:14:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOutOfRangeValue -->
+      </class> <!-- test_classes.GettingInputTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
